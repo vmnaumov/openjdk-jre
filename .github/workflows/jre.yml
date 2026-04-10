@@ -3,7 +3,7 @@ name: Assemble jre
 on:
   push:
     tags:
-      - "jre*.*.*"
+      - "v*.*.*"
 
 permissions:
   contents: write
